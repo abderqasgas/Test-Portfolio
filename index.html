@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+    <script src="quote.js" defer></script>
+    <script src="shakymodal.js" defer></script>
 </head>
 <body>
     <header>
@@ -30,10 +31,16 @@
             <div id="projects" class="projects">
             <h2>Projects</h2>
             <ul>
-                <li><strong>Project A:</strong> A website for local dessert shop.</li>
+                <li id="project-a"><strong>Project A:</strong> A website for local dessert shop.</li>
                 <li><strong>Project B:</strong> A mobile app for tracking fitness activities.</li>
                 <li><strong>Project C:</strong> An open-source library for data visualization.</li>
             </ul>
+            <dialog id="project-a-dialog">
+                <h3>Project A: Dessert Shop Website</h3>
+                <img src="./images/shaky-light.png" alt="Shaky Crepe Site Preview" id="currPic">
+                <p>This <a href="https://abderqasgas.github.io/shakycrepe.github.io/" target="_blank">project</a> involved creating a responsive website for a local dessert shop. The website features an online menu, customer reviews, and an integrated ordering system. Technologies used include HTML, CSS, JavaScript, and React.</p>
+                <button onclick="togglePic()">Toggle Image</button>
+            </dialog>
             </div>
             <div class="quotebox">
                 <h2>Lil bit of wisdom</h2>

@@ -1,5 +1,6 @@
 const quote = document.getElementById('quote');
 
+
 const quotes = [
 	'William Shakespeare: "All the world’s a stage, and all the men and women merely players."',
 	'Albert Einstein: "Life is like riding a bicycle. To keep your balance, you must keep moving."',
